@@ -1,0 +1,60 @@
+body,
+html
+{
+  background-image:url(header.jpg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  font-family:cursive;
+}
+
+.container
+{
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  text-transform: capitalize;
+  color: white;
+  text-align: center;
+}
+
+hr
+{
+  width: 50px;
+  border: 1PX SOLID orangered;
+  border-radius: 10px;
+}
+
+.two
+{
+  text-align: center;
+  margin-top: 150px;
+}
+
+.row
+{
+margin-top: 13.5%;
+}
+
+button
+{
+  border-radius: 19px;
+  border-color: orangered;
+  border-width: 0px;
+  padding: 10px;
+  color: white;
+  background-color: orangered;
+  transition: 0.5s;
+}
+
+button:hover
+{
+  transform: scale(1.1);
+}
+
+
+
